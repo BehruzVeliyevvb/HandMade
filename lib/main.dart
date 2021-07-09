@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:handmadee/LoginScreen/LoginScreen.dart';
+import 'package:handmadee/OnboardingScreen/OnboardingScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           splashColor: Colors.transparent,
           visualDensity: VisualDensity.adaptivePlatformDensity),
-      home: LoginScreen(),
+      home: OnboardingScreen(),
     );
   }
 }
